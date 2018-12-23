@@ -1,0 +1,42 @@
+{
+  "name": "raidencashcore-mnemonic",
+  "version": "1.6.5",
+  "description": "BIP39 Mnemonics for RaidenCashCore",
+  "author": "RaidenCash Core Group, Inc",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc mocha",
+    "build": "webpack"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solaris-rig/raidencashcore-mnemonic.git"
+  },
+  "keywords": [
+    "raidencash",
+    "bitcore",
+    "mnemonic",
+    "crypto",
+    "cryptography",
+    "encryption",
+    "raidencashcore"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "raidencashcore-lib": "^1.8.2",
+    "unorm": "^1.4.1"
+  }
+}
